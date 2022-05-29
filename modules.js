@@ -2,5 +2,5 @@
 
 const { name, age } = require('./names');
 const sayHi = require('./utils');
-
-sayHi(name);
+const data = require('./alternative-flavor');
+console.log(data);
