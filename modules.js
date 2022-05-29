@@ -1,7 +1,6 @@
 // Modules
 
-const sayHi = (name) => {
-  console.log(`Hello there ${name}`);
-}
+const name = require('./names');
+console.log(name);
 
-sayHi('Alex');
+// sayHi(name);
